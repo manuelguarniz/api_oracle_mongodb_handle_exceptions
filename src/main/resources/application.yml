@@ -1,0 +1,18 @@
+
+# Set port server
+server.port: 9000
+
+# Set true for first time db initialization.
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: mguarniz
+      password: "12345678"
+      database: demo
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: mguarniz
+    password: 12345678
+    driver-class-name: oracle.jdbc.OracleDriver

@@ -1,0 +1,20 @@
+[
+{"id":1,"nombre":"Tonya Vazquez","fechaNacimiento":"1980-06-01","salario":1200.0,"diasTrabajados":30},
+{"id":2,"nombre":"Mathews Robbins","fechaNacimiento":"1985-02-23","salario":690.0,"diasTrabajados":25},
+{"id":3,"nombre":"Walton Vincent","fechaNacimiento":"1990-05-22","salario":800.0,"diasTrabajados":21},
+{"id":4,"nombre":"Audra Wade","fechaNacimiento":"1972-09-09","salario":1500.0,"diasTrabajados":24},
+{"id":5,"nombre":"Susanne Moody","fechaNacimiento":"1995-10-05","salario":1100.0,"diasTrabajados":23},
+{"id":6,"nombre":"Stevenson Dickson","fechaNacimiento":"1968-11-05","salario":420.0,"diasTrabajados":5},
+{"id":7,"nombre":"Hinton Cooper","fechaNacimiento":"1973-12-26","salario":660.0,"diasTrabajados":19},
+{"id":8,"nombre":"Hahn Brown","fechaNacimiento":"1989-02-28","salario":725.0,"diasTrabajados":14},
+{"id":9,"nombre":"Bennett Brady","fechaNacimiento":"1991-05-31","salario":1200.0,"diasTrabajados":15},
+{"id":10,"nombre":"Mueller Jimenez","fechaNacimiento":"1981-05-28","salario":475.0,"diasTrabajados":10}
+]
+
+
+db.createUser(
+{	user: "mguarniz",
+	pwd: "12345678",
+
+	roles:[{role: "userAdmin" , db:"demo"}]
+})
